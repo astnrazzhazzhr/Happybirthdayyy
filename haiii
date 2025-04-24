@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <title>Selamat Ulang Tahun, Sayang!</title>
+  <style>
+    body {
+      background: linear-gradient(to right, #fbc2eb, #a6c1ee);
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      color: #333;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      min-height: 100vh;
+      margin: 0;
+      text-align: center;
+    }
+
+    h1 {
+      font-size: 3em;
+      color: #ff3366;
+      margin-bottom: 10px;
+    }
+
+    .message {
+      max-width: 600px;
+      font-size: 1.2em;
+      background: #ffffffcc;
+      padding: 20px;
+      border-radius: 15px;
+      box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+    }
+
+    .love {
+      margin-top: 20px;
+      font-size: 2em;
+      color: #ff69b4;
+      animation: pulse 1s infinite;
+    }
+
+    @keyframes pulse {
+      0% { transform: scale(1); }
+      50% { transform: scale(1.1); }
+      100% { transform: scale(1); }
+    }
+  </style>
+</head>
+<body>
+  <h1>Happy Birthday, My Love!</h1>
+  <div class="message">
+    Selamat ulang tahun, sayang! Terima kasih sudah menjadi bagian dari hariku yang paling indah.  
+    Kamu bukan hanya pacar terbaik, tapi juga sahabat dan tempat ternyamanku.  
+    Semoga tahun ini penuh cinta, tawa, dan mimpi yang jadi nyata.  
+    Aku bangga punya kamu, dan aku akan selalu ada buat kamu.  
+  </div>
+  <div class="love">♥</div>
+</body>
+</html>
